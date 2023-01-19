@@ -1,0 +1,12 @@
+body {
+    background: url(sivut.jpg);
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    color: cornflowerblue;
+}
+* {
+    color: white;
+}
