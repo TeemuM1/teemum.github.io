@@ -1,14 +1,29 @@
 body {
-    background: gold;
+    background: black;
 }
 
 .header {
-    text-align: center;
-    font-size: 70px;
-    color: cornflowerblue;
+    font-size: 50px;
+    color: whitesmoke;
+    position: absolute;
+    left: 2em;
+    top: 1px
+    
+}
+
+img {
+    position: absolute;
+    top: 47px
+}
+
+
+.intro {
+    position: absolute;
+    top: 2.2cm;
+    left: 2.9cm;
 }
 * {
-    color: white;
+    color: whitesmoke;
 }
 
 .welcome {
@@ -21,46 +36,45 @@ body {
 }
 
 .me {
-    text-align: center
+    text-align: center;
+    font-family: Helvetica;
 }
 
 .navbar {
-    
     position: absolute;
-    top: 5em;
-    width: 9em
+    top: 4.3cm;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    border: 1px solid black;
+    overflow: hidden;
+    background-color: #333; 
+    width: 942px;
 }
 
 li {
-    text-align: center;
-    border-bottom: 1px solid black;
+    float: left; 
+    border-right: 1px solid white;
 }
+
 li:last-child {
-    border-bottom: none;
+    border-right: none;
 }
 
 li a{
     display: block;
-    width: 112px;
-    color: #000;
-    padding: 8px 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 li a:hover {
-    background-color: #555;
-    color: white
+    background-color: #111;
 }
+
 .mylife, .life {
     text-align: center;
     font-family: Tahoma;
