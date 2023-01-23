@@ -1,19 +1,20 @@
-body {
-    background: black;
+body{
+    background-image: url("anni.jpg");
 }
+
+
 
 .header {
     font-size: 50px;
     color: whitesmoke;
     position: absolute;
     left: 2em;
-    top: 1px
-    
+    top: 1px;
 }
 
 img {
     position: absolute;
-    top: 47px
+    top: 45px;
 }
 
 
@@ -24,6 +25,7 @@ img {
 }
 * {
     color: whitesmoke;
+    font-family: Helvetica;
 }
 
 .welcome {
@@ -32,17 +34,16 @@ img {
 
 .about {
     text-align: center;
-    font-family: Verdana;
 }
 
 .me {
     text-align: center;
-    font-family: Helvetica;
 }
 
 .navbar {
     position: absolute;
-    top: 4.3cm;
+    top: 4.29cm;
+    
 }
 
 ul {
@@ -51,7 +52,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333; 
-    width: 942px;
+    width: 1904px;
+    border-bottom: solid 1px white;
 }
 
 li {
@@ -59,15 +61,13 @@ li {
     border-right: 1px solid white;
 }
 
-li:last-child {
-    border-right: none;
-}
+
 
 li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 11px 16px;
     text-decoration: none;
 }
 
