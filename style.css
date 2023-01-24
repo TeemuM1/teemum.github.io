@@ -1,20 +1,24 @@
-body{
-    background-image: url("anni.jpg");
+body, html{
+    margin: 0;
+    padding: 0;
 }
-
-
 
 .header {
     font-size: 50px;
     color: whitesmoke;
     position: absolute;
     left: 2em;
-    top: 1px;
+    top: 5px;
 }
+ header {
+    background-image: url("anni.jpg");
+    background-repeat: no-repeat;
+ }
 
 img {
     position: absolute;
     top: 45px;
+    left: 10px;
 }
 
 
@@ -23,6 +27,7 @@ img {
     top: 2.2cm;
     left: 2.9cm;
 }
+
 * {
     color: whitesmoke;
     font-family: Helvetica;
@@ -32,17 +37,14 @@ img {
     text-align: center;
 }
 
-.about {
-    text-align: center;
-}
-
 .me {
     text-align: center;
+    color: black
 }
 
 .navbar {
     position: absolute;
-    top: 4.29cm;
+    top: 4.65cm;
     
 }
 
@@ -52,8 +54,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333; 
-    width: 1904px;
+    width: 1920px;
     border-bottom: solid 1px white;
+    border-top: solid 1px white
 }
 
 li {
@@ -67,7 +70,7 @@ li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 16px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 
@@ -75,11 +78,13 @@ li a:hover {
     background-color: #111;
 }
 
-.mylife, .life {
+.life {
     text-align: center;
     font-family: Tahoma;
+    color: black
 }
 
-.studies, p {
+.studies {
     text-align: center;
+    color: black;
 }
