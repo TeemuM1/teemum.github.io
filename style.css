@@ -1,6 +1,7 @@
 body, html{
     margin: 0;
     padding: 0;
+    background-color: gray;
 }
 
 .header {
@@ -19,6 +20,7 @@ img {
     position: absolute;
     top: 45px;
     left: 10px;
+    border-radius: 35px;
 }
 
 
@@ -31,6 +33,7 @@ img {
 * {
     color: whitesmoke;
     font-family: Helvetica;
+    box-sizing: border-box;
 }
 
 .welcome {
@@ -81,10 +84,56 @@ li a:hover {
 .life {
     text-align: center;
     font-family: Tahoma;
-    color: black
+    color: black;
 }
 
 .studies {
     text-align: center;
     color: black;
 }
+
+.container {
+    display: flex;
+    width: 10cm;
+    position: absolute; 
+    top: 10cm;
+    left: 2cm;
+}
+
+.card {
+    background-image: url(11.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 150px;
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card2 {
+    background-image: url(8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 150px;
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card:hover, .card2:hover {
+    flex: 2;
+    background-color: white;
+    background-size: cover;
+}
+
+.memes {
+    color: black;
+    position: absolute;
+    top: 8cm;
+    left: 6cm;
+}
+
+
