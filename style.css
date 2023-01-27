@@ -185,3 +185,8 @@ li a:hover {
     color: black;
 }
 
+@media (max-width: 200px) {
+    .flex-container, .flex-container2 {
+        flex-direction: column;
+    }
+}
