@@ -1,7 +1,7 @@
 body, html{
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: white;
 }
 
 .header {
@@ -16,7 +16,7 @@ body, html{
     background-repeat: no-repeat;
  }
 
-img {
+.image {
     position: absolute;
     top: 45px;
     left: 10px;
@@ -40,9 +40,16 @@ img {
     text-align: center;
 }
 
+.info {
+    padding: 10px;
+    border-radius: 30px;
+    outline-style: solid;
+
+}
 .me {
     text-align: center;
-    color: black
+    color: black;
+
 }
 
 .navbar {
@@ -136,4 +143,45 @@ li a:hover {
     left: 6cm;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 600px;
+    position: absolute;
+    left: 17.5cm;
+    border-radius: 30px;
+}
+
+.flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 600px;
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    left: 20px;
+}
+
+.flex-container2 > div {
+    margin: 10px;
+    padding: 10px;   
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.games {
+    color: black;
+}
 

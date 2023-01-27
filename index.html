@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
 <html>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teemu Matala</title>
     <link href="style.css" rel="stylesheet" href="about.html" />
   </head>
@@ -11,7 +12,7 @@
     <header>
       <h1 class="header">Teemu Matala</h1>
       <p class="intro">Youre average NPC</p>
-      <img src="11.png" width="75" height="75" />
+      <img class="image" src="11.png" width="75" height="75" />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </header>
 
@@ -25,28 +26,48 @@
 
     <br /><br /><br />
 
-  <section>
-    <div>
-      <h2 class="me" id="aboutme">About Me</h2>
-      <p class="me">
-        I am a 19 year old boy who like to play video games, eat and study
-      </p>
 
+    <div class="flex-container">
 
+      <div class="about">
+        <h2 class="me">About Me</h2>
+        <p class="me">
+        I am a 19 year old boy who likes to play a lot of video games, eat and study. 
+        I'm starting my studies in 2023 and I'm very excited. 
+        </p>
       <br />
+      </div>
+
+      <div class="mylife">
+        <h2 class="life" id="mylife">My Life</h2>
+        <p class="life">My whole life I've been into computers. It started as a 
+          interest on video games. Then I started to play with my friends a lot. 
+          Now that I've gotten older I'm more interested in programming and 
+          especially web-developing.
+        </p>
+        <br />
+      </div>
+      
+      <div class="study">
+        <h2 class="studies">My Studies</h2>
+        <p class="studies">I graduated in 2022 and I was very happy and relieved that
+          school was over for now. I applied to 3 different schools and all of them
+          were perfect for me. I got into one of them and I was happy even though 
+          it wasnt the one that I hoped for the most.
+        </p>
+
+      </div>
+
     </div>
 
-    <div>
-      <h2 class="life" id="mylife">My Life</h2>
-      <p class="life">Text Text Text Text Text Text Text Text Text Text</p>
-      <br />
+    <div class="flex-container2">
+      <div>
+        <h2 class="games">Games I Play</h2>
+        <p class="games">Here are all the games I play or have played</p>
+      </div>     
     </div>
 
-    <div>
-      <h2 class="studies">My Studies</h2>
-      <p class="studies">I went to school here blablabla</p>
-    </div>
-
+    <!--
     <aside class="pictures" id="pics">
       <h2 class="memes">Memes</h2>
         <div class="container">
@@ -56,11 +77,10 @@
           <div class="card4"></div>
         </div>
     </aside>
-
+    -->
 
     <!-- <div class="zoom"></div> -->
 
-  </section>
   
   </body>
 </html>
