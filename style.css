@@ -5,8 +5,9 @@ body, html{
 }
 
 .header {
+    position: relative;
+    left: 3cm;
     top: 0.5cm;
-    left: 2em;
     font-size: 50px;
     color: whitesmoke;
 
@@ -21,24 +22,31 @@ body, html{
     
  }
 
+ .start {
+    display: flex;
+    flex-direction: row;
+ }
+
 .image {
-    
-    top: 45px;
-    left: 10px;
+    position: relative;
+    top: 52px;
+    left: -12cm;
     border-radius: 35px;
 }
 
 
 .intro { 
-    top: 2.4cm;
-    left: 2.9cm;
-    color: whitesmoke
+    position: relative;
+    top: 2.6cm;
+    left: -5.4cm;
+    color: whitesmoke;
 }
 
+/*
 #head {
     position: absolute;
 }
-
+*/
 *
  {
     color: black;
