@@ -147,6 +147,17 @@ body, html{
     }
 }
 
+@media screen and (max-width: 700px){
+    .header {
+        text-align: center;          
+    }
+}
+
+@media screen and (max-width: 700px){
+    .image, .intro {
+        opacity: 0
+    }
+}
 .game, .game2 {
     margin: 5px; 
     width: 110px;
