@@ -149,7 +149,8 @@ body, html{
 
 @media screen and (max-width: 700px){
     .header {
-        text-align: center;          
+        text-align: center;
+        font-size: 40px;          
     }
 }
 
