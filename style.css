@@ -10,16 +10,13 @@ body, html{
     top: 0.5cm;
     font-size: 50px;
     color: whitesmoke;
-
 }
  header {
     background-image: url("beuyhu.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
-    
-    
+    background-size: cover;
  }
 
  .start {
@@ -36,17 +33,13 @@ body, html{
 
 
 .intro { 
+    height: 20px;
     position: relative;
-    top: 2.6cm;
+    top: 2.5cm;
     left: -5.4cm;
     color: whitesmoke;
 }
 
-/*
-#head {
-    position: absolute;
-}
-*/
 *
  {
     color: black;
@@ -58,12 +51,6 @@ body, html{
     text-align: center;
 }
 
-.info {
-    padding: 10px;
-    border-radius: 30px;
-    outline-style: solid;
-
-}
 .me {
     text-align: center;
     color: black;
@@ -72,14 +59,14 @@ body, html{
 
 .navbar {
     display: flex;
+    flex-direction: row;
     background-color: #333;
     border: 1px solid white;
-
 }
 
 .navbar a {
     color: white;
-    padding: 14px 20px;
+    padding: 13px 20px;
     text-decoration: none;
     text-align: center;
     border: 1px solid white;
@@ -104,27 +91,25 @@ body, html{
     color: black;
 }
 
-.container {
-    display: flex;
-    width: 10cm;
-    position: absolute; 
-    top: 10cm;
-    left: 2cm;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
 .side {
-    flex: 30%;
+    flex: 25%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.right {
+    flex: 25%;
     background-color: #f1f1f1;
     padding: 20px;
 }
 
 .main {
-    flex: 70%;
+    flex: 50%;
     background-color: white;
     padding: 20px;
 }
@@ -150,7 +135,7 @@ body, html{
 @media screen and (max-width: 700px){
     .header {
         text-align: center;
-        font-size: 30px;          
+        font-size: 40px;          
     }
 }
 
