@@ -6,8 +6,8 @@ body, html{
 
 .header {
     position: relative;
-    left: 3cm;
-    top: 0.5cm;
+    left: 2.3em;
+    top: 0.4em;
     font-size: 50px;
     color: whitesmoke;
 }
@@ -26,17 +26,17 @@ body, html{
 
 .image {
     position: relative;
-    top: 52px;
-    left: -12cm;
-    border-radius: 35px;
+    left: -28em;
+    top: 3em;
+    border-radius: 40px;
 }
 
 
 .intro { 
     height: 20px;
     position: relative;
-    top: 2.5cm;
-    left: -5.4cm;
+    top: 6em;
+    left: -12.7em;
     color: whitesmoke;
 }
 
@@ -103,11 +103,6 @@ body, html{
     padding: 20px;
 }
 
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
 
 .footer {
     height: auto;
