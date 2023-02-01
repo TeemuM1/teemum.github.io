@@ -1,0 +1,75 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+*
+ {
+    color: black;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    left: 3cm;
+    top: 0.5cm;
+    font-size: 50px;
+    color: whitesmoke;
+}
+ header {
+    background-image: url("beuyhu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .start {
+    display: flex;
+    flex-direction: row;
+ }
+
+.image {
+    position: relative;
+    top: 52px;
+    left: -12cm;
+    border-radius: 35px;
+}
+
+
+.intro { 
+    height: 20px;
+    position: relative;
+    top: 2.5cm;
+    left: -5.4cm;
+    color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    border: 1px solid white;
+}
+
+.navbar a {
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.right {
+    text-align: center;
+}
