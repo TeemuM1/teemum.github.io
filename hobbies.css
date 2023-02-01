@@ -70,6 +70,17 @@ body, html{
     color: black;
 }
 
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ddd;
+}
+
 .right {
+    padding: 20px;
+    flex: 100%;
     text-align: center;
 }
+
+

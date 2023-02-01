@@ -1,0 +1,153 @@
+*
+ {
+    color: black;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-content {
+    flex: 100%;
+    text-align: center;
+    background: #ddd;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+
+.backgrounds {
+    text-align: center;
+    background: #ddd;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+.animated {
+    background: linear-gradient(
+        to right, #833ab4,
+        #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    text-align: center; 
+    padding: 20px;
+    font-weight: bold;
+}
+
+.animated2 {
+    background: linear-gradient(
+        to right, green,
+        darkgreen, aquamarine);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.animated3 {
+    background: linear-gradient(
+        to right, lightblue, cornflowerblue, blue, darkblue);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.transforms {
+    text-align: center;
+    background: #ddd;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-top: 3px black solid;
+}
+
+.movement {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    transition: transform 3s;
+}
+
+.transform:hover {
+    transform: rotate(60deg);
+}
+
+.transform2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    transition: transform 3s;
+}
+
+.transform2:hover {
+    transform: rotateY(180deg);
+}
+
+.transform3 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    transition: transform 3s;
+}
+
+.transform3:hover {
+    transform: rotateX(180deg);
+    background: linear-gradient(
+        to right, pink, orange, green, blue);
+    background-size: 400% 400%;
+    animation: animate-background 3s infinite;
+}
+
+.transform4 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.transform4:hover {
+    animation: move;
+    animation-duration: 5s;
+}
+
+
+
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+@keyframes move {
+    0% {background-color: yellow; left:0px; top:0px}
+    25% {background-color: red; left:100px; top:0px}
+    50% {background-color: green; left:100px; top:100px}
+    75% {background-color: orange; left:0px; top:100px}
+    100% {background-color: yellow; left:0px; top:0px}
+}
