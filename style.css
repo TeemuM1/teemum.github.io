@@ -4,13 +4,63 @@ body, html{
     background-color: white;
 }
 
+/*
 .header {
     position: relative;
     left: 2.3em;
     top: 0.4em;
     font-size: 50px;
     color: whitesmoke;
+    height: fit-content;
+    border: 1px solid black;
 }
+*/
+/*
+.intro { 
+    height: 20px;
+    position: relative;
+    top: 8em;
+    left: -12.7em;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+*/
+
+.start {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+ }
+
+ .task {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+ }
+
+ .image {
+    position: relative;
+    border-radius: 40px;
+    top: 0.9em;
+    right: 0.5em   
+ }
+
+ .header {
+    position: relative;
+    color: whitesmoke;
+    top: -0.8em;
+    left: 0.5em
+ }
+
+ .intro {
+    position: relative;
+    color: whitesmoke;
+    align-self: flex-end;
+    right: 44%;
+    top: -5%
+ }
+
  header {
     background-image: url("beuyhu.jpg");
     background-repeat: no-repeat;
@@ -19,34 +69,13 @@ body, html{
     background-size: cover;
  }
 
- .start {
-    display: flex;
-    flex-direction: row;
- }
-
-.image {
-    position: relative;
-    left: -28em;
-    top: 3.4em;
-    border-radius: 40px;
-    height: 80px;
-    width: 4%
-}
-
-
-.intro { 
-    height: 20px;
-    position: relative;
-    top: 6em;
-    left: -12.7em;
-    color: whitesmoke;
-}
 
 *
  {
     color: black;
     font-family: Helvetica;
     box-sizing: border-box;
+    
 }
 
 .welcome {
