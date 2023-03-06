@@ -35,7 +35,6 @@ body, html{
  .task {
     display: flex;
     flex-wrap: wrap;
-    
     align-items: center;
  }
 
@@ -57,7 +56,7 @@ body, html{
     position: relative;
     color: whitesmoke;
     align-self: flex-end;
-    right: 44%;
+    right: 43%;
     top: -5%
  }
 
